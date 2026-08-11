@@ -28,8 +28,8 @@ window.ARTISTS = {
     cardNumber: "001/010",
     rarity: "HOLO RARE",
     story: [
-      "It was pouring rain this day and this was my first big festival. I remember being so worried about my camera or the rented lens getting soaked. I was covered in mud and remember thinking myself I look crazy on stage plastered in mud but I had to get the shots. This was also the first photo a big artist that posted my photo, I remember sitting at my day job with my mind blown seeing it on his page.",
-      "Printed as a one-of-ten holo, cold-stamped, mailed to your team by hand. If it caught your eye, please see my full portfolio."
+      "It was pouring rain, and it was my first big festival. I remember being worried about my camera and the rented lens that I couldn’t afford to break. I was covered in mud and remember thinking to myself, “I definitely don’t look like I belong on stage plastered in mud,” but I had to get the shot. Somehow I just happened to catch Max throwing up the finger to the crowd. This was also the first photo of mine that a big artist posted; I remember sitting at my day job with my mind blown seeing it on his page. Definitely a moment I won’t ever forget.",
+      "Printed as a one-of-ten holo, raised cold-stamped + UV Numoda Dragon. Not for sale, for portfolio display purposes only. If it caught your eye, please click the link below to learn more about me."
     ],
     links: [
       { label: "Learn more about me", url: "tomwantsajobmusic.com" },
