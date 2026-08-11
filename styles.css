@@ -161,7 +161,7 @@ a { color: inherit; }
   background-size: 220% 220%;
   background-position: var(--mx, 50%) var(--my, 50%);
   mix-blend-mode: color-dodge;
-  opacity: 0.55;
+  opacity: 0.3;
   pointer-events: none;
 }
 
