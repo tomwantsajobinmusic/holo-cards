@@ -19,21 +19,21 @@
 
 window.ARTISTS = {
 
-  "jensen-truly": {
-    name: "Jensen Truly",
-    event: "Concourse Project — Austin, TX",
-    date: "2026",
-    gear: "Sony A7III · GM 24-70",
-    image: "assets/jensen-truly.jpg",
-    cardNumber: "001",
+  "max-styler": {
+    name: "Max Styler",
+    event: "Wicked Oaks Festival — Austin, TX",
+    date: "2025",
+    gear: "Sony α6300 · Tameron 35-150",
+    image: "assets/max-styler.jpg",
+    cardNumber: "001/010",
     rarity: "HOLO RARE",
     story: [
-      "Shot mid-set, house lights cut to a single strobe on the downbeat. This is the frame that made the rest of the night worth staying up for.",
-      "Printed as a one-of-one holo, cold-stamped, mailed to your team by hand. If it caught your eye, the full-res set is one message away."
+      "It was pouring rain this day and this was my first big festival. I remember being so worried about my camera or the rented lens getting soaked. I was covered in mud and remember thinking myself I look crazy on stage plastered in mud but I had to get the shots. This was also the first photo a big artist that posted my photo, I remember sitting at my day job with my mind blown seeing it on his page.",
+      "Printed as a one-of-ten holo, cold-stamped, mailed to your team by hand. If it caught your eye, please see my full portfolio."
     ],
     links: [
-      { label: "Full resolution set", url: "#" },
-      { label: "Instagram", url: "#" }
+      { label: "Learn more about me", url: "tomwantsajobmusic.com" },
+      { label: "Instagram", url: "instagram.com/thomasbrown802" }
     ]
   },
 
