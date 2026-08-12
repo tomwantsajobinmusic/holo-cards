@@ -42,7 +42,7 @@ window.ARTISTS = {
     event: "Breakaway — Dallas, TX",
     date: "2026",
     gear: "Sony α7III · Sigma 70-200",
-    image: "assets/example-artist.jpg",
+    image: "assets/Sofi-Tukker.png",
     cardNumber: "002",
     rarity: "HOLO RARE",
     story: [
