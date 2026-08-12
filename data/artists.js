@@ -37,11 +37,11 @@ window.ARTISTS = {
     ]
   },
 
-  "example-artist": {
-    name: "Example Artist",
-    event: "Freaky Deaky — Houston, TX",
-    date: "Oct 2025",
-    gear: "Sony A7III · GM 70-200",
+  "sofi-tukker": {
+    name: "Sofi Tukker",
+    event: "Breakaway — Dallas, TX",
+    date: "2026",
+    gear: "Sony α7III · Sigma 70-200",
     image: "assets/example-artist.jpg",
     cardNumber: "002",
     rarity: "HOLO RARE",
