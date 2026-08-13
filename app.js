@@ -157,10 +157,15 @@
     setBounds();
     window.addEventListener("resize", setBounds);
 
-    function onMove(clientX, clientY) {
+   function onMove(clientX, clientY, sensitivity) {
+      sensitivity = sensitivity || 1;
       if (!bounds) setBounds();
       var px = (clientX - bounds.left) / bounds.width;
       var py = (clientY - bounds.top) / bounds.height;
+      // amplify the offset from center so small drags (touch) go further
+      // than the raw finger position alone would produce
+      px = 0.5 + (px - 0.5) * sensitivity;
+      py = 0.5 + (py - 0.5) * sensitivity;
       px = Math.min(1, Math.max(0, px));
       py = Math.min(1, Math.max(0, py));
       targetRX = (px - 0.5) * 22;
@@ -178,16 +183,16 @@
     });
     card.addEventListener("pointerleave", reset);
 
-    // touch drag fallback
+   // touch drag fallback — amplified so a small thumb movement produces
+    // a fuller tilt, since most people won't drag corner-to-corner
     card.addEventListener(
       "touchmove",
       function (e) {
         var t = e.touches[0];
-        if (t) onMove(t.clientX, t.clientY);
+        if (t) onMove(t.clientX, t.clientY, 2.2);
       },
       { passive: true }
     );
-    card.addEventListener("touchend", reset);
 
     // device orientation, if a phone grants it
     if (isTouch() && window.DeviceOrientationEvent) {
