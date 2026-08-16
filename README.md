@@ -45,6 +45,13 @@ Both load from Google Fonts in `index.html`. To swap in your own
 "badass" pick, replace the `<link>` tag's `family=` params and the
 `--font-display` / `--font-mono` variables at the top of `styles.css`.
 
+**Per-card name font** — if a specific card's printed version uses a
+custom typeface for the artist name, drop the `.ttf` in `fonts/`,
+register it with `@font-face` in `styles.css`, then set `nameFont` on
+that artist's entry in `data/artists.js` (e.g. `nameFont: "Venus
+Rising"`). Cards without a `nameFont` keep using Big Shoulders
+Display.
+
 ## Deploying to GitHub Pages
 
 1. Push this folder to a repo (or a `docs/` folder / `gh-pages` branch

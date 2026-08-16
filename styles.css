@@ -1,4 +1,23 @@
 /* ────────────────────────────────────────────────────────────
+   CUSTOM FONTS — match the printed physical cards
+   ──────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Venus Rising";
+  src: url("fonts/Venus Rising.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Walnut Regular";
+  src: url("fonts/Walnut Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ────────────────────────────────────────────────────────────
    TOKENS
    ──────────────────────────────────────────────────────────── */
 :root {
@@ -229,7 +248,7 @@ a { color: inherit; }
 }
 
 .artist-name {
-  font-family: var(--font-display);
+  font-family: var(--name-font, var(--font-display));
   font-weight: 800;
   text-transform: uppercase;
   font-size: clamp(40px, 7vw, 76px);

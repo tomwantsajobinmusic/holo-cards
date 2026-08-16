@@ -76,6 +76,10 @@
         "<span>Printed original \u00b7 Digitally archived</span>" +
       "</footer>";
 
+    if (a.nameFont) {
+      document.querySelector(".artist-name").style.setProperty("--name-font", '"' + a.nameFont + '"');
+    }
+
     injectSparkleSVG(document.getElementById("sparkle-layer"));
     initTilt(document.getElementById("holo-card"));
     typeDossier(a.story, document.getElementById("dossier-text"), function () {
